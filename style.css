@@ -1,3 +1,60 @@
-h1{
-  color: red;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 1600px;
+  height: auto;
+}
+
+nav{
+  width: 1600px;
+  height: 92px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-bar{
+  width: 367px;
+  height: 24px;
+}
+
+.navbar-logo{
+  width: 139px;
+  height: 60px;
+}
+.nav-bar ul{
+  list-style: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar ul li{
+  transition: color 0.3s ease;
+}
+
+.nav-bar ul li:hover{
+  color: #30B868;
+  cursor: pointer;
+  
+}
+
+.navber-button button{
+  width: 164px;
+  height: 44px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #30B868;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navber-button button:hover{
+  background-color: #267C4B;
+  cursor: pointer;
+  transform: scale(1.05);
 }
