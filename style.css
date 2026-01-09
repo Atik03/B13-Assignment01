@@ -70,7 +70,7 @@ nav{
 
 /* end header */
 
-/* start banner section */
+/* start hero section */
 
 .hero{
   width: 100%;
@@ -189,4 +189,75 @@ nav{
   transform: scale(1.05);
 }
 
-/* end banner section */
+/* end hero section */
+
+/* start notes section */
+
+.notes {
+  width: 1600px;
+  height: auto;
+  background: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.notes h2 {
+  font-size: 38px;
+  color: #000;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  color: #94a3b8;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+.cards {
+  max-width: 1360px;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  
+}
+
+.card {
+  background: #fff;
+  padding: 32px 24px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background: #ff5a5a;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+
+.icon i {
+  font-size: 22px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* end notes section */
+
