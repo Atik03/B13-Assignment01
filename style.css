@@ -1,23 +1,23 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 1600px;
   height: auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* start header */
 
-header{
+header {
   width: 100%;
   height: auto;
 }
 
-nav{
+nav {
   width: 100%;
   height: 92px;
   background-color: #fff;
@@ -25,45 +25,44 @@ nav{
   justify-content: space-around;
   align-items: center;
 }
-.nav-bar{
+.nav-bar {
   width: 367px;
   height: 24px;
 }
 
-.navbar-logo{
+.navbar-logo {
   width: 139px;
   height: 60px;
 }
-.nav-bar ul{
+.nav-bar ul {
   list-style: none;
   font-size: 16px;
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
 }
-.nav-bar ul li{
+.nav-bar ul li {
   transition: color 0.3s ease;
 }
 
-.nav-bar ul li:hover{
-  color: #30B868;
+.nav-bar ul li:hover {
+  color: #30b868;
   cursor: pointer;
-  
 }
 
-.navber-button button{
+.navber-button button {
   width: 164px;
   height: 44px;
   color: #fff;
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  background-color: #30B868;
+  background-color: #30b868;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.navber-button button:hover{
-  background-color: #267C4B;
+.navber-button button:hover {
+  background-color: #267c4b;
   cursor: pointer;
   transform: scale(1.05);
 }
@@ -72,16 +71,15 @@ nav{
 
 /* start hero section */
 
-.hero{
+.hero {
   width: 100%;
   height: 600px;
-  background-image: url('./assets/hero-bg.png');
+  background-image: url("./assets/hero-bg.png");
   background-size: cover;
   background-color: rgba(0, 20, 40, 0.9);
   position: relative;
- 
 }
-.hero-content{
+.hero-content {
   width: 1360px;
   height: 380px;
   position: absolute;
@@ -92,11 +90,11 @@ nav{
   align-items: center;
 }
 
-.hero-text{
+.hero-text {
   width: 229px;
   height: 36px;
   background-color: #fff;
-  color: #30B868;
+  color: #30b868;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +103,7 @@ nav{
   text-transform: capitalize;
 }
 
-.hero-heading{
+.hero-heading {
   width: 770px;
   height: 168px;
   font-size: 72px;
@@ -115,13 +113,12 @@ nav{
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  
 }
 
 .hero-heading p:nth-child(2) {
-  color: #30B868;
+  color: #30b868;
 }
-.hero-paragraph{
+.hero-paragraph {
   width: 1000px;
   height: 60px;
   text-align: center;
@@ -129,17 +126,16 @@ nav{
   margin-top: 10px;
 }
 
-.hero-button{
+.hero-button {
   width: 1000px;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-   gap: 16px;
+  gap: 16px;
 }
 
-
-.hero-btn-one{
+.hero-btn-one {
   width: 225px;
   height: 44px;
   font-size: 16px;
@@ -151,20 +147,19 @@ nav{
   align-items: center;
   border: none;
   border-radius: 5px;
-  background-color: #30B868;
+  background-color: #30b868;
   color: #fff;
   transition: all 0.3s ease;
 }
 
-.hero-btn-one:hover{
+.hero-btn-one:hover {
   background-color: transparent;
   border: 1px solid #fff;
   cursor: pointer;
   transform: scale(1.05);
 }
 
-
-.hero-btn-two{
+.hero-btn-two {
   width: 198px;
   height: 44px;
   font-size: 16px;
@@ -182,8 +177,8 @@ nav{
   transition: all 0.3s ease;
 }
 
-.hero-btn-two:hover{
-  background-color: #30B868;
+.hero-btn-two:hover {
+  background-color: #30b868;
   border: none;
   cursor: pointer;
   transform: scale(1.05);
@@ -221,7 +216,6 @@ nav{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
-  
 }
 
 .card {
@@ -261,40 +255,39 @@ nav{
 
 /* end notes section */
 
-
 /* start brain section */
 .second-brain {
   width: 1600px;
   height: 740px;
   position: relative;
-   padding: 120px;
+  padding: 0 120px 120px 120px;
 }
-.second-brain-container{
+.second-brain-container {
   width: 1360px;
   height: 600px;
   position: absolute;
   display: flex;
   flex-direction: row;
 }
-.second-brain-img{
+.second-brain-img {
   width: 600px;
   height: 600px;
-  background-image:  url('./assets/knowledge.png');
+  background-image: url("./assets/knowledge.png");
   background-size: cover;
 }
 
-.second-brain-content{
+.second-brain-content {
   width: 760px;
   height: 600px;
   background-color: #fff;
   position: relative;
 }
 
-.second-brain-contant-right{
+.second-brain-contant-right {
   width: 700px;
   height: 396px;
   position: absolute;
-  margin: 102px 0px 120px 60px;
+  margin: 102px 0 120px 60px;
 }
 
 .solution {
@@ -333,8 +326,72 @@ nav{
   color: #020617;
   position: relative;
 }
-.features li i{
+.features li i {
   color: #22c55e;
 }
 /* end brain section */
 
+/* start early access */
+.early-access-main {
+  width: 1600px;
+  height: 506px;
+  padding: 0 120px 120px 120px;
+}
+
+.early-access {
+  max-width: 1360px;
+  height: 384px;
+  padding: 60px 20px;
+  background: #f8f6f2;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.early-access h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.early-access p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #475569;
+  margin-bottom: 28px;
+}
+
+.access-btn {
+  width: 225px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  line-height: 19px;
+  border-radius: 5px;
+  background-color: #30b868;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.access-btn i {
+  margin-left: 15px;
+}
+
+.access-btn:hover {
+  background: #187b3c;
+  transform: translateY(-2px);
+}
+
+.note {
+  display: block;
+  margin-top: 18px;
+  font-size: 16px;
+  color: #64748b;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* end early access */
