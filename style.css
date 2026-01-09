@@ -261,3 +261,80 @@ nav{
 
 /* end notes section */
 
+
+/* start brain section */
+.second-brain {
+  width: 1600px;
+  height: 740px;
+  position: relative;
+   padding: 120px;
+}
+.second-brain-container{
+  width: 1360px;
+  height: 600px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.second-brain-img{
+  width: 600px;
+  height: 600px;
+  background-image:  url('./assets/knowledge.png');
+  background-size: cover;
+}
+
+.second-brain-content{
+  width: 760px;
+  height: 600px;
+  background-color: #fff;
+  position: relative;
+}
+
+.second-brain-contant-right{
+  width: 700px;
+  height: 396px;
+  position: absolute;
+  margin: 102px 0px 120px 60px;
+}
+
+.solution {
+  color: #22c55e;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.second-brain-heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin: 16px 0;
+  color: #020617;
+}
+
+.description {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.features {
+  margin-top: 40px;
+  list-style: none;
+}
+
+.features li {
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #020617;
+  position: relative;
+}
+.features li i{
+  color: #22c55e;
+}
+/* end brain section */
+
